@@ -1,3 +1,29 @@
+# ReactJS로 영화 웹 서비스 만들기
+
+## CH5. CREATE REACT APP(CRA)
+
+### npx create-react-app 앱명
+빌드 구성 없이 편리하게 react 앱을 시작할 수 있는 명령어.
+
+### npm start / npm run start
+개발용 서버 생성 후 open
+
+### export default 변수명
+다른 파일에서 import할 수 있도록 하는 설정
+
+### npm install prop-types
+PropTypes 사용 가능하도록 install 후,
+파일에 import PropTypes from "prop-types" 작성
+
+### CSS Module
+style의 모듈화가 가능함.
+CSS를 적용할 만큼만 작성하여 module.css 형식으로 만들어서 적용할 js 파일에 import 후 CSS 적용
+ex) import styles from "./Button.module.css";
+...
+<button className="styles.btn">O</button>
+
+=========================================================
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

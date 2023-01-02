@@ -5,7 +5,11 @@ function Button({text}){
         <button className={styles.btn}>{text}</button>
     )
 }
-
+// const Button = ({text}) => {
+//     return(
+//         <button className={styles.btn}>{text}</button>
+//     )
+// }
 Button.propTypes = {
     text: PropTypes.string.isRequired,
 }
