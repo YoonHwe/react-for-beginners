@@ -22,6 +22,22 @@ ex) import styles from "./Button.module.css";
 ...
 <button className="styles.btn">O</button>
 
+## CH6. EFFECTS
+
+### useEffect
+state가 변경되어도 단 한 번만 실행되도록 함
+[]안에 들어간 요소가 바뀔 때만 다시 실행됨(여러 요소 배열 안에 가능)
+ex) useEffect(() => {
+    ...
+}, [watch할 요소]);
+
+### CleanUp 함수
+useEffect(() => {
+    ...
+    return () => {
+        (컴포넌트가 destroy될 때 실행되는 함수)
+    }
+}, []);
 =========================================================
 
 # Getting Started with Create React App
